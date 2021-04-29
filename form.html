@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Form Element</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <form action="/tacos">
+      <!-- input is the most common entry to a  form -->
+      <p>
+        <label for="username">
+          enter a user name
+          <input type="text" placeholder="name" id="username" />
+        </label>
+      </p>
+      <p>
+        <label for="password">
+          enter your password
+          <input type="password" id="password" />
+        </label>
+      </p>
+      <p>
+        <label for="color">
+          choose a color
+          <input type="color" id="color" />
+        </label>
+      </p>
+      <p>
+        <label for="month">
+          what month
+          <input type="month" id="month" />
+        </label>
+      </p>
+      <p>
+        <label for="number">
+          which number
+          <input type="number" placeholder="enter a number" id="number" />
+        </label>
+      </p>
+
+      <button>Submit</button>
+      <!-- the type attribute set to button eg.type="button" prevents the button from submitting  -->
+
+      <!-- label is the is one of the most common entry to a  form -->
+      <!-- label is linked behind the scenes to input we use the id attribute and the label 'for' check boxes and radio buttons
+     etc. and makes them clickable-->
+      <!-- another way to make a button is <input type = "submit value= Click Me >"  dont like the syntax -->
+    </form>
+  </body>
+</html>
